@@ -43,7 +43,6 @@ public class Testbase {
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String path="C://Users/HP/IdeaProjects/seleniumZero/target/report.html";
         extentReports=new ExtentReports();
-
         reporter=new ExtentSparkReporter(path);
         extentReports.attachReporter(reporter);
         extentReports.setSystemInfo("Environment","QQAA");
