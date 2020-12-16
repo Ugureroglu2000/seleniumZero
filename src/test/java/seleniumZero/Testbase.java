@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-//Ugur branc ugur
+//Ugur branc ugur github ediited master
 
 public class Testbase {
     public static WebDriver driver;
