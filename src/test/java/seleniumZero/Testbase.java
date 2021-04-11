@@ -117,7 +117,7 @@ public class Testbase {
 
     @AfterTest
     public void afterMethod()throws InterruptedException {
-        Thread.sleep(2000);
+//         Thread.sleep(2000); //no need to wait
         extentReports.flush();
 //        if(driver!=null){driver.quit();}
 
