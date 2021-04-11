@@ -69,6 +69,7 @@ public class Testbase {
 
             //take the screenshot and return location of screenshot
             String screenShotPath = Screenshot.getScreenshot(result.getName());
+            
             //add your screen shot to your report
             logger.addScreenCaptureFromPath(screenShotPath);
 
