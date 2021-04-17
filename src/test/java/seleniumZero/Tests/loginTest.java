@@ -24,7 +24,6 @@ import java.io.IOException;
 
 public class loginTest extends Testbase {
 
-
     @Test  // positive  with reports
     public void login() throws InterruptedException {
 

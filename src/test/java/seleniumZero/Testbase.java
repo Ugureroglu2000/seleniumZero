@@ -26,7 +26,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+
 //Ugur branc ugur github ediited master editted git master again
+
+//Ugur branc ugur editted github ugur
+
 
 public class Testbase {
     protected WebDriver driver;
@@ -80,6 +84,7 @@ public class Testbase {
 
             //take the screenshot and return location of screenshot
             String screenShotPath = Screenshot.getScreenshot(result.getName());
+            
             //add your screen shot to your report
             extentLogger.addScreenCaptureFromPath(screenShotPath);
 //            extentLogger.addScreenCaptureFromBase64String(screenShotPath);
@@ -96,8 +101,15 @@ public class Testbase {
 
     @AfterTest
     public void afterMethod()throws InterruptedException {
+<<<<<<< HEAD
 //        Thread.sleep(2000);
         report.flush();
+=======
+//         Thread.sleep(2000); //no need to wait
+        extentReports.flush();
+//        if(driver!=null){driver.quit();}
+
+>>>>>>> 4ba89a9917ad0353eb27763149e7fef485fd1142
     }
 
 }
