@@ -67,10 +67,10 @@ public class loginTest extends Testbase {
             {"username","pass"},{"Username","password"},{"username","Password"}};
     return arr;
     }
-//    @Test(dataProvider = "dataLogin")
-//    public void testing(String a,String b){
-//        System.out.println(a+" = "+b);
-//    }
+    @Test(dataProvider = "dataLogin")
+    public void testing(String a,String b){
+        System.out.println(a+" = "+b);
+    }
 
     @Test(dataProvider = "dataLogin")
     public void login1(String username,String password) throws InterruptedException {
