@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Runner Test"   parallel="methods" thread-count="5" >
+<!--Listeners class will be called for reporting the process in console or as we implement-->
+<!--    <listeners>  <listener class-name="listeners.Listen"></listener> </listeners>-->
 <test name="Test">
+
     <classes>
-        <class name="seleniumZero.Tests.AccountSummaryTest"/>
-        <class name="seleniumZero.Tests.loginTest"/>
+
+
+        <class name="seleniumZero.Tests.loginTest">
+
+        </class>
     </classes>
 </test>
 </suite>

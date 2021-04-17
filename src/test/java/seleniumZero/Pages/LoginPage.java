@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
     public LoginPage(){        PageFactory.initElements(Driver.get(),this);}
+    @FindBy(xpath ="//*[@id='signin_button']" )
+    public WebElement SignInMain;
 
     @FindBy(id = "user_login")
     public WebElement loginBox;

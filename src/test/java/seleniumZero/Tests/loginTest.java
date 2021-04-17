@@ -1,8 +1,8 @@
 package seleniumZero.Tests;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+//import com.aventstack.extentreports.ExtentReports;
+//import com.aventstack.extentreports.ExtentTest;
+//import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -15,6 +15,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import seleniumZero.Utils.ConfReader;
 
 
 import java.io.FileInputStream;
@@ -26,34 +27,36 @@ public class loginTest extends Testbase {
 
     @Test  // positive  with reports
     public void login() throws InterruptedException {
-//    String path="C://Users/HP/IdeaProjects/zerobank SE/target";
-//ExtentReports extentReports=new ExtentReports();
-//ExtentSparkReporter reporter=new ExtentSparkReporter(path);
-//    extentReports.attachReporter(reporter);               // in Testbase
-//    extentReports.setSystemInfo("Environment","QQAA");
-//ExtentTest logger=extentReports.createTest("REport 1");
-        driver.get("http://zero.webappsecurity.com/login.html");
+
+        extentLogger =report.createTest("REport Login");
+        String url= ConfReader.get("url");
+        driver.get(url);
         LoginPage login=new LoginPage();
-    logger.info("sending username and password");
+        login.SignInMain.click();
+        extentLogger .info("sending username and password");
         login.loginBox.sendKeys("username");
         login.password.sendKeys("password");
-    logger.info("Push sign in button");
+        extentLogger .info("Push sign in button");
         boolean bool=true;int c=0;
         while (bool){
-    try{login.SigninButton.click();bool=false;}catch (StaleElementReferenceException e){
-        System.out.println(++c);}
+            try{login.SigninButton.click();bool=false;}
+            catch (StaleElementReferenceException e){
+                System.out.println(++c);}
         }
 //        driver.findElement(By.xpath("//*[@value='Sign in']")).click();
-        Thread.sleep(2000);
-    logger.pass("Login is successfull");
-        if(driver.getCurrentUrl().equals("https://zero.webappsecurity.com/auth/accept-certs.html?user_token=25af1f53-3c7d-4a7e-b71c-cfb1b38d2d6d")){
-            login.backToSafety.click();
 
-            Alert alert=driver.switchTo().alert();
-            alert.accept();
-        }
-    logger.info("Logging out");
-        new MainPage().logout();
+        Thread.sleep(2000);
+        Assert.assertTrue(driver.getCurrentUrl().contains("index.html"));
+        extentLogger .pass("Login is successfull");
+//
+//        if(driver.getCurrentUrl().equals("https://zero.webappsecurity.com/auth/accept-certs.html?user_token=25af1f53-3c7d-4a7e-b71c-cfb1b38d2d6d")){
+//            login.backToSafety.click();
+//
+//            Alert alert=driver.switchTo().alert();
+//            alert.accept();
+//        }
+//        extentLogger .pass("Logging out");
+//        new MainPage().logout();
 //    logger.pass("Logged out successfully");
 //    extentReports.flush();
     }
@@ -71,7 +74,9 @@ public class loginTest extends Testbase {
 
     @Test(dataProvider = "dataLogin")
     public void login1(String username,String password) throws InterruptedException {
-        driver.get("http://zero.webappsecurity.com/login.html");
+        extentLogger =report.createTest("REport Data Login");
+        String url= ConfReader.get("url");
+        driver.get(url);
         LoginPage login=new LoginPage();//System.out.println("username");
         login.loginBox.sendKeys(username);
         login.password.sendKeys(password);
@@ -81,25 +86,29 @@ public class loginTest extends Testbase {
             try{login.SigninButton.click();bool=false;}catch (StaleElementReferenceException e){
                 System.out.println(++c);}
         }
-        if(driver.getCurrentUrl().equals("https://zero.webappsecurity.com/auth/accept-certs.html?user_token=25af1f53-3c7d-4a7e-b71c-cfb1b38d2d6d")){
-            login.backToSafety.click();
-            Alert alert=driver.switchTo().alert();
-            alert.accept();
-        }logger.info("verify login or not"+password);
-//        System.out.println("a"+username);
-        if(driver.getCurrentUrl().equals("http://zero.webappsecurity.com/login.html?login_error=true")){
-            System.out.println(username+" "+password+" is Not correct");
-        }else{System.out.println(username+" "+password+" is correct");
-        MainPage mainPage=new MainPage();mainPage.logout();
-        }
-        logger.pass("It passed"+username);
+//        if(driver.getCurrentUrl().equals("https://zero.webappsecurity.com/auth/accept-certs.html?user_token=25af1f53-3c7d-4a7e-b71c-cfb1b38d2d6d")){
+//            login.backToSafety.click();
+//            Alert alert=driver.switchTo().alert();
+//            alert.accept();
+//        }
+//        extentLogger .info("verify login or not"+password);
+////        System.out.println("a"+username);
+//        if(driver.getCurrentUrl().equals("http://zero.webappsecurity.com/login.html?login_error=true")){
+//            System.out.println(username+" "+password+" is Not correct");
+//        }else{System.out.println(username+" "+password+" is correct");
+//        MainPage mainPage=new MainPage();mainPage.logout();
+//        }
+        Thread.sleep(2000);
+        Assert.assertTrue(driver.getCurrentUrl().contains("index.html"));
+
+        extentLogger .pass("It passed"+username);
 //        System.out.println("b"+password);
 
     }
 
     @DataProvider
     public Object[][] DataExcell() throws IOException {
-        String path="C:/Users/HP/Downloads/DataExcell.xlsx";
+        String path="resource/DataLogin.xlsx";
         FileInputStream Excell=new FileInputStream(path);
         Workbook workbook= WorkbookFactory.create(Excell);
         Sheet worksheet=workbook.getSheet("Sheet1");
@@ -119,8 +128,11 @@ public class loginTest extends Testbase {
 
     @Test(dataProvider="DataExcell")
     public void login2(String username,String password) throws InterruptedException {
-        driver.get("http://zero.webappsecurity.com/login.html");
+        extentLogger =report.createTest("REport DataExcell");
+        String url= ConfReader.get("url");
+        driver.get(url);
         LoginPage login=new LoginPage();//System.out.println("username");
+        login.SignInMain.click();
         login.loginBox.sendKeys(username);
         login.password.sendKeys(password);
 //        login.SigninButton.click();
@@ -130,18 +142,10 @@ public class loginTest extends Testbase {
                 System.out.println(++c);}
         }
 //        driver.findElement(By.xpath("//*[@value='Sign in']")).click();
+
         Thread.sleep(2000);
-        if(driver.getCurrentUrl().equals("https://zero.webappsecurity.com/auth/accept-certs.html?user_token=25af1f53-3c7d-4a7e-b71c-cfb1b38d2d6d")){
-            login.backToSafety.click();
-            Alert alert=driver.switchTo().alert();
-            alert.accept();
-        }
-//        System.out.println("a"+username);
-        if(driver.getCurrentUrl().equals("http://zero.webappsecurity.com/login.html?login_error=true")){
-//            System.out.println(username+" "+password+" is Not correct");
-        }else{System.out.println(username+" "+password+" is correct");
-            MainPage mainPage=new MainPage();mainPage.logout();
-        }
+        Assert.assertTrue(driver.getCurrentUrl().contains("index.html"));
+        extentLogger .pass("Login is successfull");
 //        System.out.println("b"+password);
 
     }

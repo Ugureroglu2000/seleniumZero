@@ -3,6 +3,7 @@ seleniumZero\Utils\Driver.class
 seleniumZero\Testbase.class
 seleniumZero\Tests\loginTest.class
 seleniumZero\Utils\Screenshot.class
+listeners\Listen.class
 seleniumZero\Pages\AccountSummaryPage.class
 seleniumZero\Pages\MainPage.class
 seleniumZero\Pages\LoginPage.class

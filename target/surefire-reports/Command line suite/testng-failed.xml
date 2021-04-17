@@ -12,6 +12,26 @@
           <include name="beforemethod"/>
         </methods>
       </class> <!-- seleniumZero.Tests.MainTest -->
+      <class name="seleniumZero.Tests.loginTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="login"/>
+          <include name="login2"/>
+          <include name="login1"/>
+          <include name="afterMethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- seleniumZero.Tests.loginTest -->
+      <class name="seleniumZero.Tests.AccountSummaryTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="Acc"/>
+          <include name="afterMethod"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- seleniumZero.Tests.AccountSummaryTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

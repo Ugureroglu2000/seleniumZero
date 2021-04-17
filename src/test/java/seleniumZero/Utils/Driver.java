@@ -22,9 +22,11 @@ public class Driver {
     public static WebDriver get() {
         //if this thread doesn't have driver - create it and add to pool
         if (driverPool.get() == null) {
+
 //            if we pass the driver from terminal then use that one
 //           if we do not pass the driver from terminal then use the one properties file
             String browser = System.getProperty("browser") != null ? browser = System.getProperty("browser") : ConfReader.get("browser");
+
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
@@ -48,12 +50,14 @@ public class Driver {
                     WebDriverManager.iedriver().setup();
                     driverPool.set(new InternetExplorerDriver());
                     break;
+
                 case "edge":
                     if (!System.getProperty("os.name").toLowerCase().contains("windows"))
                         throw new WebDriverException("Your OS doesn't support Edge");
                     WebDriverManager.edgedriver().setup();
                     driverPool.set(new EdgeDriver());
                     break;
+
                 case "safari":
                     if (!System.getProperty("os.name").toLowerCase().contains("mac"))
                         throw new WebDriverException("Your OS doesn't support Safari");
@@ -64,6 +68,7 @@ public class Driver {
         }
         return driverPool.get();
     }
+
     public static void closeDriver() {
         driverPool.get().quit();
         driverPool.remove();

@@ -27,7 +27,9 @@ public class BasePage {
     public WebElement logout;
     public void logout(){
         System.out.println("logout");
-        logoutUsername.click();logout.click(); System.out.println("logout ok");
+        logoutUsername.click();
+        logout.click();
+        System.out.println("logout ok");
     }
 
 

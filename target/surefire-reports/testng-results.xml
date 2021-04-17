@@ -1,607 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="26" passed="19" failed="1" skipped="0">
+<testng-results ignored="6" total="18" passed="0" failed="3" skipped="9">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-16T02:30:24 GMT" name="Command line suite" finished-at="2020-12-16T02:33:47 GMT" duration-ms="202837">
+  <suite started-at="2021-04-13T06:47:33 BST" name="Command line suite" finished-at="2021-04-13T06:48:00 BST" duration-ms="26854">
     <groups>
     </groups>
-    <test started-at="2020-12-16T02:30:24 GMT" name="Command line test" finished-at="2020-12-16T02:33:47 GMT" duration-ms="202837">
+    <test started-at="2021-04-13T06:47:33 BST" name="Command line test" finished-at="2021-04-13T06:48:00 BST" duration-ms="26854">
       <class name="seleniumZero.Testbase">
-        <test-method is-config="true" signature="before()[pri:0, instance:seleniumZero.Testbase@5204062d]" started-at="2020-12-16T02:30:24 GMT" name="before" finished-at="2020-12-16T02:30:25 GMT" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:seleniumZero.Testbase@319b92f3]" started-at="2021-04-13T06:47:33 BST" name="before" finished-at="2021-04-13T06:47:33 BST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:seleniumZero.Testbase@5204062d]" started-at="2020-12-16T02:33:45 GMT" name="afterMethod" finished-at="2020-12-16T02:33:47 GMT" duration-ms="2271" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:seleniumZero.Testbase@319b92f3]" started-at="2021-04-13T06:48:00 BST" name="afterMethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292880427" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- seleniumZero.Testbase -->
       <class name="seleniumZero.Tests.loginTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:30:45 GMT" name="beforemethod" finished-at="2020-12-16T02:30:50 GMT" duration-ms="5298" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="2021-04-13T06:47:49 BST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="login()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:30:50 GMT" name="login" finished-at="2020-12-16T02:30:56 GMT" duration-ms="5528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:30:56 GMT" name="after" finished-at="2020-12-16T02:30:57 GMT" duration-ms="1181" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=loginTest.login()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:30:57 GMT" name="beforemethod" finished-at="2020-12-16T02:31:03 GMT" duration-ms="5443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:03 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:06 GMT" duration-ms="3537" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:06 GMT" name="after" finished-at="2020-12-16T02:31:07 GMT" duration-ms="671" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:07 GMT" name="beforemethod" finished-at="2020-12-16T02:31:12 GMT" duration-ms="5359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:12 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:14 GMT" duration-ms="1796" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:14 GMT" name="after" finished-at="2020-12-16T02:31:15 GMT" duration-ms="679" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:15 GMT" name="beforemethod" finished-at="2020-12-16T02:31:20 GMT" duration-ms="5284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:20 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:22 GMT" duration-ms="1688" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:22 GMT" name="after" finished-at="2020-12-16T02:31:22 GMT" duration-ms="654" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:22 GMT" name="beforemethod" finished-at="2020-12-16T02:31:27 GMT" duration-ms="5204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:27 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:29 GMT" duration-ms="1691" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:29 GMT" name="after" finished-at="2020-12-16T02:31:30 GMT" duration-ms="664" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:30 GMT" name="beforemethod" finished-at="2020-12-16T02:31:35 GMT" duration-ms="5214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:35 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:37 GMT" duration-ms="1733" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:37 GMT" name="after" finished-at="2020-12-16T02:31:38 GMT" duration-ms="1046" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:38 GMT" name="beforemethod" finished-at="2020-12-16T02:31:43 GMT" duration-ms="5226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:43 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:45 GMT" duration-ms="1709" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:45 GMT" name="after" finished-at="2020-12-16T02:31:45 GMT" duration-ms="652" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:45 GMT" name="beforemethod" finished-at="2020-12-16T02:31:51 GMT" duration-ms="5249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:51 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:31:52 GMT" duration-ms="1788" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:52 GMT" name="after" finished-at="2020-12-16T02:31:53 GMT" duration-ms="670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:53 GMT" name="beforemethod" finished-at="2020-12-16T02:31:58 GMT" duration-ms="5257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:31:58 GMT" name="login1" data-provider="dataLogin" finished-at="2020-12-16T02:32:00 GMT" duration-ms="2003" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:00 GMT" name="after" finished-at="2020-12-16T02:32:01 GMT" duration-ms="682" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login1 status=SUCCESS method=loginTest.login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:02 GMT" name="beforemethod" finished-at="2020-12-16T02:32:07 GMT" duration-ms="5344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:07 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:32:12 GMT" duration-ms="5376" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:12 GMT" name="after" finished-at="2020-12-16T02:32:13 GMT" duration-ms="695" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:13 GMT" name="beforemethod" finished-at="2020-12-16T02:32:18 GMT" duration-ms="5288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:18 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:32:22 GMT" duration-ms="3804" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[    ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:22 GMT" name="after" finished-at="2020-12-16T02:32:23 GMT" duration-ms="634" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:23 GMT" name="beforemethod" finished-at="2020-12-16T02:32:28 GMT" duration-ms="5354" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:28 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:32:32 GMT" duration-ms="4298" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[    ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:32 GMT" name="after" finished-at="2020-12-16T02:32:33 GMT" duration-ms="663" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:33 GMT" name="beforemethod" finished-at="2020-12-16T02:32:38 GMT" duration-ms="5207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:38 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:32:42 GMT" duration-ms="3737" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[    ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[    ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:42 GMT" name="after" finished-at="2020-12-16T02:32:43 GMT" duration-ms="637" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:43 GMT" name="beforemethod" finished-at="2020-12-16T02:32:48 GMT" duration-ms="5241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:48 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:32:52 GMT" duration-ms="3706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:52 GMT" name="after" finished-at="2020-12-16T02:32:52 GMT" duration-ms="662" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:52 GMT" name="beforemethod" finished-at="2020-12-16T02:32:57 GMT" duration-ms="5244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:32:57 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:33:01 GMT" duration-ms="3761" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:01 GMT" name="after" finished-at="2020-12-16T02:33:02 GMT" duration-ms="644" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:02 GMT" name="beforemethod" finished-at="2020-12-16T02:33:07 GMT" duration-ms="5214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:07 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:33:11 GMT" duration-ms="3708" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:11 GMT" name="after" finished-at="2020-12-16T02:33:11 GMT" duration-ms="615" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:11 GMT" name="beforemethod" finished-at="2020-12-16T02:33:17 GMT" duration-ms="5276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:17 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:33:20 GMT" duration-ms="3680" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:20 GMT" name="after" finished-at="2020-12-16T02:33:21 GMT" duration-ms="627" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:21 GMT" name="beforemethod" finished-at="2020-12-16T02:33:26 GMT" duration-ms="5325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:26 GMT" name="login2" data-provider="DataExcell" finished-at="2020-12-16T02:33:30 GMT" duration-ms="3849" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[username1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233]" started-at="2020-12-16T02:33:30 GMT" name="after" finished-at="2020-12-16T02:33:31 GMT" duration-ms="628" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login2 status=SUCCESS method=loginTest.login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@376b4233] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- seleniumZero.Tests.loginTest -->
-      <class name="seleniumZero.Tests.AccountSummaryTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@4fcd19b3]" started-at="2020-12-16T02:30:25 GMT" name="beforemethod" finished-at="2020-12-16T02:30:30 GMT" duration-ms="5656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="Acc()[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@4fcd19b3]" started-at="2020-12-16T02:30:30 GMT" name="Acc" finished-at="2020-12-16T02:30:44 GMT" duration-ms="14196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Acc -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@4fcd19b3]" started-at="2020-12-16T02:30:44 GMT" name="after" finished-at="2020-12-16T02:30:45 GMT" duration-ms="660" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Acc status=SUCCESS method=AccountSummaryTest.Acc()[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@4fcd19b3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- seleniumZero.Tests.AccountSummaryTest -->
-      <class name="seleniumZero.Tests.MainTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.MainTest@2fd66ad3]" started-at="2020-12-16T02:33:31 GMT" name="beforemethod" finished-at="2020-12-16T02:33:36 GMT" duration-ms="5261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="main()[pri:0, instance:seleniumZero.Tests.MainTest@2fd66ad3]" started-at="2020-12-16T02:33:36 GMT" name="main" finished-at="2020-12-16T02:33:44 GMT" duration-ms="7995" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
+        <test-method signature="login()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login" finished-at="2021-04-13T06:47:49 BST" duration-ms="335" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at seleniumZero.Tests.MainTest.main(MainTest.java:49)
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Tests.loginTest.login(loginTest.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -642,18 +66,934 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.MainTest@2fd66ad3]" started-at="2020-12-16T02:33:44 GMT" name="after" finished-at="2020-12-16T02:33:45 GMT" duration-ms="963" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="2021-04-13T06:47:49 BST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=main status=FAILURE method=MainTest.main()[pri:0, instance:seleniumZero.Tests.MainTest@2fd66ad3] output={null}]]]>
+                <![CDATA[[TestResult name=login status=FAILURE method=loginTest.login()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869962" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869964" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869964" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869965" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869965" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869966" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869966" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869967" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869968" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869969" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869970" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869970" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869971" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869972" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869973" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="1970-01-01T01:00:00 GMT" duration-ms="-1618292869974" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="login1(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login1" data-provider="dataLogin" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method signature="login2(java.lang.String, java.lang.String)[pri:0, instance:seleniumZero.Tests.loginTest@27d415d9]" started-at="2021-04-13T06:47:49 BST" name="login2" data-provider="DataExcell" finished-at="2021-04-13T06:47:49 BST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\HP\Downloads\DataExcell.xlsx (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\HP\Downloads\DataExcell.xlsx (The system cannot find the file specified)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:51)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:801)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.io.FileNotFoundException: C:\Users\HP\Downloads\DataExcell.xlsx (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+at seleniumZero.Tests.loginTest.DataExcell(loginTest.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:78)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:47)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+      </class> <!-- seleniumZero.Tests.loginTest -->
+      <class name="seleniumZero.Tests.AccountSummaryTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@fcd6521]" started-at="2021-04-13T06:47:33 BST" name="beforemethod" finished-at="2021-04-13T06:47:37 BST" duration-ms="3947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Acc()[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@fcd6521]" started-at="2021-04-13T06:47:37 BST" name="Acc" finished-at="2021-04-13T06:47:49 BST" duration-ms="11471" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//table[@class='table'])[1]/tbody/tr[1]/td[1]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HLEND38', ip: '192.168.43.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec809ba75ad78d5099d1cd58c58e183c
+*** Element info: {Using=xpath, value=(//table[@class='table'])[1]/tbody/tr[1]/td[1]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//table[@class='table'])[1]/tbody/tr[1]/td[1]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HLEND38', ip: '192.168.43.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec809ba75ad78d5099d1cd58c58e183c
+*** Element info: {Using=xpath, value=(//table[@class='table'])[1]/tbody/tr[1]/td[1]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at seleniumZero.Tests.AccountSummaryTest.Acc(AccountSummaryTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Acc -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@fcd6521]" started-at="2021-04-13T06:47:49 BST" name="after" finished-at="2021-04-13T06:47:49 BST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Acc status=FAILURE method=AccountSummaryTest.Acc()[pri:0, instance:seleniumZero.Tests.AccountSummaryTest@fcd6521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- seleniumZero.Tests.AccountSummaryTest -->
+      <class name="seleniumZero.Tests.MainTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:seleniumZero.Tests.MainTest@5c18298f]" started-at="2021-04-13T06:47:49 BST" name="beforemethod" finished-at="2021-04-13T06:47:50 BST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="main()[pri:0, instance:seleniumZero.Tests.MainTest@5c18298f]" started-at="2021-04-13T06:47:50 BST" name="main" finished-at="2021-04-13T06:48:00 BST" duration-ms="10254" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#signin_button"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HLEND38', ip: '192.168.43.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec809ba75ad78d5099d1cd58c58e183c
+*** Element info: {Using=id, value=signin_button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signin_button"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HLEND38', ip: '192.168.43.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ec809ba75ad78d5099d1cd58c58e183c
+*** Element info: {Using=id, value=signin_button}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+at seleniumZero.Pages.MainPage.verifyWebelements(MainPage.java:34)
+at seleniumZero.Tests.MainTest.main(MainTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:seleniumZero.Tests.MainTest@5c18298f]" started-at="2021-04-13T06:48:00 BST" name="after" finished-at="2021-04-13T06:48:00 BST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=main status=FAILURE method=MainTest.main()[pri:0, instance:seleniumZero.Tests.MainTest@5c18298f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at seleniumZero.Testbase.after(Testbase.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
