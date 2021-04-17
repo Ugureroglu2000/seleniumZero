@@ -47,10 +47,10 @@ public class loginTest extends Testbase {
         Thread.sleep(2000);
         Assert.assertTrue(driver.getCurrentUrl().contains("index.html"));
         extentLogger .pass("Login is successfull");
-//
+
 //        if(driver.getCurrentUrl().equals("https://zero.webappsecurity.com/auth/accept-certs.html?user_token=25af1f53-3c7d-4a7e-b71c-cfb1b38d2d6d")){
 //            login.backToSafety.click();
-//
+
 //            Alert alert=driver.switchTo().alert();
 //            alert.accept();
 //        }
@@ -58,6 +58,7 @@ public class loginTest extends Testbase {
 //        new MainPage().logout();
 //    logger.pass("Logged out successfully");
 //    extentReports.flush();
+
     }
 
     @DataProvider
